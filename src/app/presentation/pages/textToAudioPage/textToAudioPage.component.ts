@@ -4,10 +4,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 @Component({
   selector: 'app-text-to-audio-page',
   standalone: true,
-  imports: [
-    CommonModule,
-  ],
+  imports: [CommonModule],
   templateUrl: './textToAudioPage.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class TextToAudioPageComponent { }
+export default class TextToAudioPageComponent {}

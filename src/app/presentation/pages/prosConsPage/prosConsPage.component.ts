@@ -4,10 +4,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 @Component({
   selector: 'app-pros-cons-page',
   standalone: true,
-  imports: [
-    CommonModule,
-  ],
+  imports: [CommonModule],
   templateUrl: './prosConsPage.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ProsConsPageComponent { }
+export default class ProsConsPageComponent {}
